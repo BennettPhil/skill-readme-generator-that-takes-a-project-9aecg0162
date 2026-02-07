@@ -1,6 +1,6 @@
-# readme-generator-that-takes-a-project-9aecg0162
+# Quickstart
 
-Quickstart:
+Successful run:
 
 ```bash
 ./scripts/run.sh --mode brief
@@ -12,16 +12,14 @@ Expected output starts with:
 ## Idea Summary
 ```
 
-Failure example:
+Failure run:
 
 ```bash
 ./scripts/run.sh --mode invalid
 ```
 
-Expected error:
+Expected stderr:
 
 ```text
 Invalid mode: invalid
 ```
-
-See `tests/cases.md` and `examples/quickstart.md`.
